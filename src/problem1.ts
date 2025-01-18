@@ -4,7 +4,7 @@
   */
 
   const repeatString = (text: string, times: number): string => {
-    let values = "";
+    let values : string = "";
     for (let i = 1; i <= times; i++) {
       values += text;
     }

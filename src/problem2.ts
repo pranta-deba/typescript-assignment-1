@@ -4,7 +4,7 @@
   */
 
     const findLargestNumber = (arr: number[]): number => {
-        const largeNumber = Math.max(...arr)
+        const largeNumber : number = Math.max(...arr)
         return largeNumber
     }
     
