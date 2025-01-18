@@ -10,5 +10,5 @@
         }
         return values;
     };
-    repeatString('Hello', 3);
+    console.log(repeatString('Hello!', 3));
 }
